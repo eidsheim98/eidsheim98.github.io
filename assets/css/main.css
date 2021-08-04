@@ -2633,12 +2633,12 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
+			display: flex;
+			flex-wrap: wrap;
 			margin-left: auto;
 			margin-right: auto;
-			width: 50%;
+			width: 75%;
 			margin-bottom:50px;
-			
 		}
 
 			.image.main:first-child {
@@ -2646,7 +2646,8 @@ input, select, textarea {
 			}
 
 			.image.main img {
-				width: 100%;
+				margin: 1rem;
+				width: 45%;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -2953,16 +2954,16 @@ input, select, textarea {
 		}
 
 			header.major > :last-child {
-				margin-bottom: 0;
+				margin-bottom: -2rem;
 			}
 
 			header.major > p {
-				margin-top: 0;
+				margin-top: -3rem;
 				text-align: center;
 			}
 
 			header.major > .date {
-				font-size: 1rem;
+				font-size: 2rem;
 				margin: 0 0 4rem 0;
 			}
 
